@@ -11,5 +11,5 @@ The State Key Laboratory of Robotics, Shenyang Institute of Automation, Chinese 
 In this work, we propose Uni-YOLO, a universal object detector for robots that has the ability to detect any object in the open world.
 
 <p float="left">
-  &emsp;&emsp; <img src="./f7.png" width="900" />
+  &emsp;&emsp; <img src="./f2.png" width="900" />
 </p>
