@@ -27,22 +27,20 @@ In this work, we propose Uni-YOLO, a universal object detector for robots that h
 * math
 * os
 ## Architecture
-model.py: The definition of the model class.
+yolo.py: Training and testing main code.
 
-utils.py: Some tools for network training and testing.
+uni_predict.py: Quick zero-shot test for a sample image.
 
-data.py: Preparation tools for the training dataset.
+utils: Some tools for network training and testing.
 
-test.py: Quick dehazing test for hazy images.
+nets: The definition of network modules.
 
-testall.py: Dehazing test for all hazy images dataset.
+model_data: The candidate object categories and the Uni-YOLO model weight.
 
-train.py: Training the dehazing model by supervised learning.
+clip: The CLIP model for zero-shot classification.
 
-SemiStrain.py: Training the dehazing model by Semi-supervised learning in specific dataset.
+## Quick Test
+1. Please provide the categories for candidate objects. We have prepared a sample image and corresponding categories for quick test the detection performance. 
+2. Please run the ``uni_predict.py`` and input the ``test.jpg``, then you will get the detection result.
 
-
-## Test
-1. Please put the images to be tested into the ``test_images`` folder. We have prepared the images of the experimental results in the paper.
-2. Please run the ``test.py``, then you will get the following results:
-
+* Other modules will be updated after publication.
