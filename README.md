@@ -40,7 +40,8 @@ model_data: The candidate object categories and the Uni-YOLO model weight.
 clip: The CLIP model for zero-shot classification.
 
 ## Quick Test
-1. Please provide the categories for candidate objects. We have prepared a sample image and corresponding categories for quick test the detection performance. 
-2. Please run the ``uni_predict.py`` and input the ``test.jpg``, then you will get the detection result.
+1. Please download the pre-training weight ".pth" and place it in ". /model_data/". Baidu Link: https://pan.baidu.com/s/1pgxytvaP4hPw4ONpHOncIw. (tq56)
+2. Please provide the categories for candidate objects. We have prepared a sample image and corresponding categories for quick test the detection performance. 
+3. Please run the ``uni_predict.py`` and input the ``test.jpg``, then you will get the detection result.
 
 * Other modules will be updated after publication.
