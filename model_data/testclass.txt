@@ -1,0 +1,11 @@
+fox
+elephant
+deer
+eagle
+lion
+horse
+giraffe
+leopard
+rhinocerose
+background
+object
